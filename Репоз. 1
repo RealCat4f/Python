@@ -1,0 +1,27 @@
+# Задание 1
+integer_var = 15
+float_var = 6.3
+string_var = "Строка"
+list_var = ["Ягода", 1, 3.67]
+tuple_var = (341, 88, 123)
+dict_var = {"Имя": "Ваня", "Рост": 184}
+set_var = {8, 4, 2}
+bool_var = True
+print(integer_var, float_var, string_var, list_var, tuple_var, dict_var, set_var, bool_var)
+
+# Задание 2
+name = "Даниил"
+age = 16
+average_grade = 4.5
+favorite_movies = ["Бегущий в лабиринте", "Последний день лета", "Грань будущего"]
+personal_info = {"Ганичев", "20", "4.5"}
+skills = {"Питон": "хорош", "Джава скрипт": "Мегахорош"}
+visited_countries = ["Чили", "Кипр", "Испания"]
+has_driver_license = False
+
+# Задание 3
+prsc = "Intel Core i7-12700KF"
+oper = 32
+intr = 100
+masv = [prsc, oper, intr]
+print(masv)
