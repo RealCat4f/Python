@@ -1,0 +1,44 @@
+#Задание 1
+a = 5
+b = 10
+a = b
+b = 20
+print(a, b)
+
+#Задание 2
+x = 7
+y = 3
+z = 0
+print("сумма: ", x + y)
+print("разность: ", x - y)
+print("умножение: ", x * y)
+print("деление с остатком: ", x / y)
+print("деление без остатка: ", x // y)
+print("возведение в степень: ", x ** y)
+z = x ** 2 - (x * y)
+print("z =", z)
+
+#Задание 3
+m = 8
+n = 4
+n = m * 2
+m = n % m
+n = n - m
+print("n и m = ", n, m)
+
+#Задание 4
+a = 12
+b = 8
+c = 12
+print(a > b)
+print(a < b)
+print(a == c)
+print(a != c)
+print(a >= c)
+print(b <= a)
+
+#Задание 5
+backpack = ['ручка', 'тетрадь', 'учебник', 'карандаш', 'фломастеры', 'линейка', 'ластик']
+print("карандаш" in backpack)
+print("яблоко" not in backpack)
+print(len(backpack))
