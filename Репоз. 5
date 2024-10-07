@@ -110,7 +110,7 @@ warrior = "For the Alliance!"
 magician = "The spell is ready."
 
 def check_punctuation(sentence):
-    if sentence.endswith(("?", "!", ".")):
+    if sentence.endswith(("?", "!")):
         return "Ну тут конец на ? или !"
     else:
         return "Ну тут конец на ."
